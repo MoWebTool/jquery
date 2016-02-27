@@ -1,5 +1,5 @@
 {
-  "name": "jquery",
+  "name": "nd-jquery",
   "title": "jQuery",
   "description": "JavaScript library for DOM operations",
   "version": "2.2.1",
@@ -51,7 +51,7 @@
     "win-spawn": "2.0.0"
   },
   "scripts": {
-    "build": "npm install && grunt",
+    "build": "npm install && grunt custom:-ajax,-deprecated,-core/ready,-deferred,-exports/global,-exports/amd,-sizzle",
     "start": "grunt watch",
     "test": "grunt && grunt test"
   },
